@@ -955,3 +955,7 @@ func (cell *TableCell) SetContent(vd VectorDrawable) error {
 
 	return nil
 }
+
+func (cell *TableCell) SetColspan(colspan int) {
+	cell.colspan = colspan
+}
